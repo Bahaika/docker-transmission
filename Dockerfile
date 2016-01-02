@@ -12,6 +12,6 @@ VOLUME ["/etc/transmission"]
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-EXPOSE 9091
+EXPOSE 9091 20683
 
 CMD ["/usr/bin/transmission-daemon", "-g", "/etc/transmission", "--foreground"]
