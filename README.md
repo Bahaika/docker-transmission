@@ -1,6 +1,6 @@
 ### Transmission
 
-![Transmission logo](https://raw.githubusercontent.com/Bahaika/docker-transmission/master/transmission.png)
+![Transmission logo](https://raw.githubusercontent.com/HipsterWhale/docker-transmission/master/transmission.png)
 
 #### Default configuration of transmission 
 
