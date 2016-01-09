@@ -20,5 +20,5 @@ docker run -d \
   -v /mnt/downloads/watched:/watched \
   -v /mnt/volumes/transmission:/etc/transmission \
   -p 20683:20683 -p 9091:9091 \
-  --name=tr --net=dockernet bahaika/transmission
+  --name=tr bahaika/transmission
 ```
