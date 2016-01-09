@@ -1,8 +1,9 @@
 FROM alpine:3.2
 MAINTAINER Jérémy SEBAN
 
-RUN apk add --update transmission-cli transmission-daemon
-RUN rm -rf /var/cache/apk/*
+RUN apk add --update transmission-cli transmission-daemon \
+  && rm -rf /var/cache/apk/*
+
 RUN mkdir /etc/transmission
 COPY ./entrypoint.sh /entrypoint.sh
 COPY ./defaults.json /etc/transmission_defaults.json
